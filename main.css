@@ -1,0 +1,58 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.item{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.input{
+    width: 150px;
+    margin: 0 auto;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    border: 2px solid rgb(241, 241, 169);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.taxt{
+    font-size: 20px;
+    text-align: center;
+    color: crimson;
+    margin-top: 10px;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    width: 30px;
+    margin: 0 auto;
+    padding: 15px 40px;
+    font-size: 15px;
+    border: none;
+    border-radius: 6px;
+    background-color: aqua;
+    color: white;
+}
+.btn:hover{
+    color: white;
+    background-color: aqua;
+    box-shadow: 0 0 5px 3px rgba(72, 173, 245, 0.419);
+
+}
+.btn:active{
+    color: white;
+    background-color: aqua;
+    box-shadow: none;
+}
